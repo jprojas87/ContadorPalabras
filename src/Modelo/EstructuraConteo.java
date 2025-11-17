@@ -3,7 +3,8 @@ package Modelo;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import EstructurasDatos.Lista
+import EstructurasDatos.Lista;
+import EstructurasDatos.TablaSimbolosOrdenada;
 import Util.EstructuraTexto;
 
 /**
