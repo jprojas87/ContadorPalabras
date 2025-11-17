@@ -3,7 +3,7 @@ package Modelo;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.List;
+import EstructurasDatos.Lista
 import Util.EstructuraTexto;
 
 /**
@@ -40,7 +40,7 @@ public class EstructuraConteo {
             String linea;
 
             while ((linea = br.readLine()) != null) {
-                List<String> palabras = procesador.obtenerPalabras(linea);
+                Lista<String> palabras = procesador.obtenerPalabras(linea);
                 for (String palabra : palabras) {
                     agregarPalabra(palabra);
                 }
